@@ -83,6 +83,7 @@ h6 {
   color: #fff;
 }
 
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -601,16 +602,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
 }
 
-/* Services Section
+/* events Section
 --------------------------------*/
 
-#services {
+#events {
   background: #fff;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
 
-#services .box {
+#events .box {
   padding: 50px 20px;
   margin-bottom: 50px;
   text-align: center;
@@ -620,7 +621,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fafafa;
 }
 
-#services .icon {
+#events .icon {
   position: absolute;
   top: -36px;
   left: calc(50% - 36px);
@@ -650,42 +651,62 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #2dc997;
 }
 
-#services .icon a {
+#events .icon a {
   display: inline-block;
 }
 
-#services .icon i {
+#events .icon i {
   color: #fff;
   font-size: 24px;
 }
 
-#services .box:hover .icon {
+#events .box:hover .icon {
   background: #fff;
   border: 2px solid #2dc997;
 }
 
-#services .box:hover .icon i {
+#events .box:hover .icon i {
   color: #2dc997;
 }
 
-#services .box:hover .icon a {
+#events .box:hover .icon a {
   color: #2dc997;
 }
 
-#services .title {
+#events .title {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
 
-#services .title a {
+#events .title a {
   color: #111;
 }
 
-#services .description {
+#events .description {
   font-size: 14px;
   line-height: 24px;
+}
+
+#events .btn-get-started {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-flex;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: auto;
+  margin-right: -50%;
+  border: 2px solid #000;
+  color: #000;
 }
 
 /* Call To Action Section
